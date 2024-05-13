@@ -8,3 +8,14 @@ My dotfile configs using [Dotbot](https://github.com/anishathalye/dotbot) projec
 2. Install using Dotbot's script
     `./install``
 3. Make sure your terminal is using one of RobotoMono Nerd Fonts
+
+## MacOs
+
+Make sure to use iTerm2 once default terminal doesn't support truecolor (needed by Catppuccin)
+
+# Programs setups
+
+## NeoVim
+
+Enter nvim and then do ":PackerInstall" to download and install NeoVim plugins.
+Use ":Mason" to install LSPs 

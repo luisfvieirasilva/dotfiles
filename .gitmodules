@@ -14,3 +14,6 @@
 [submodule "zsh/catppuccin-zsh-syntax-highlighting"]
 	path = zsh/catppuccin-zsh-syntax-highlighting
 	url = https://github.com/catppuccin/zsh-syntax-highlighting.git
+[submodule "config/nvim/pack/packer/start/packer.nvim"]
+	path = config/nvim/pack/packer/start/packer.nvim
+	url = https://github.com/wbthomason/packer.nvim

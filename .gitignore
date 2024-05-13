@@ -1,0 +1,2 @@
+# Ignore self generated file from NeoVim Packer
+config/nvim/plugin/packer_compiled.lua
