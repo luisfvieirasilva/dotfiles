@@ -1,0 +1,24 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.oh-my-zsh:
+    ~/.oh-my-zsh-custom:
+    ~/.zshrc:
+    ~/.zsh:
+    ~/.p10k.zsh:
+    # Install the Roboto Mono font on macOS (uncomment once copy property is available, see more at shell command below)
+    # ~/Library/Fonts/RobotoMono:
+    #    if: '[ `uname` = Darwin ]'
+    #    path: fonts/RobotoMono
+
+- shell:
+  # Install Roboto Mono font on macOS (while link copy options isn't available) GH Issue: https://github.com/anishathalye/dotbot/issues/128
+  -
+    description: Install Roboto Mono font on macOS
+    command: '[ `uname` = Darwin ] && cp -R fonts/RobotoMono ~/Library/Fonts'
+    stdout: true
