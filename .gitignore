@@ -1,2 +1,5 @@
 # Ignore self generated file from NeoVim Packer
 config/nvim/plugin/packer_compiled.lua
+
+# Ignore everything inside tmux/ directory (expect TPM plugin that's a submodule)
+tmux/*
