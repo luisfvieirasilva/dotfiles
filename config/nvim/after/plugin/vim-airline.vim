@@ -26,5 +26,4 @@ call extend(g:airline_symbols, {
 "  Note: If "\u2046" (Ɇ) does not show up, try to use "\u2204" (∄)
 
 " Set the airline theme
-let g:airline_theme='raven'
-" let g:airline_theme='nord'
+let g:airline_theme='catppuccin'
