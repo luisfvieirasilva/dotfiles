@@ -19,3 +19,7 @@ Make sure to use iTerm2 once default terminal doesn't support truecolor (needed 
 
 Enter nvim and then do ":PackerInstall" to download and install NeoVim plugins.
 Use ":Mason" to install LSPs 
+
+## Tmux
+
+Enter tmux and then do "<prefix> + I" to download and install Tmux plugins.
