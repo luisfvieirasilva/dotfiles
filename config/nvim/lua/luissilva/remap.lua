@@ -41,3 +41,9 @@ vim.keymap.set("n", "<Space>j", "a<CR><Esc>", { noremap = true })
 
 -- K to display hover information (lsp-zero is suppose to set this, but it's not working)
 vim.keymap.set("n", "K", ":lua vim.lsp.buf.hover()<CR>", { noremap = true, silent = true })
+
+-- Use Crtl + Shift + arrow keys to resize windows
+vim.keymap.set("n", "<C-S-Down>", ":resize -2<CR>", { noremap = true })
+vim.keymap.set("n", "<C-S-Up>", ":resize +2<CR>", { noremap = true })
+vim.keymap.set("n", "<C-S-Left>", ":vertical resize +2<CR>", { noremap = true })
+vim.keymap.set("n", "<C-S-Right>", ":vertical resize -2<CR>", { noremap = true })
