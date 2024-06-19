@@ -1,6 +1,6 @@
 vim.g.mapleader = ","
 
-vim.opt.mouse = nil
+vim.opt.mouse = ""
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
