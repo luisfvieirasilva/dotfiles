@@ -13,6 +13,7 @@
     ~/.p10k.zsh:
     ~/.tmux:
     ~/.tmux.conf:
+    ~/.tigrc:
     # Install the Roboto Mono font on macOS (uncomment once copy property is available, see more at shell command below)
     # ~/Library/Fonts/RobotoMono:
     #    if: '[ `uname` = Darwin ]'
