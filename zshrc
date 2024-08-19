@@ -82,6 +82,7 @@ source ~/.zsh/catppuccin-zsh-syntax-highlighting/themes/catppuccin_mocha-zsh-syn
 plugins=(
     git
     zsh-syntax-highlighting
+    kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
