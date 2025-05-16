@@ -12,9 +12,9 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("v", "<leader>p", "\"_dP")
 
 -- Copy to system buffer (so you can ctrl-v outside vim and get the result)
-vim.keymap.set("n", "<leader>y", "\"+y")
-vim.keymap.set("v", "<leader>y", "\"+y")
-vim.keymap.set("n", "<leader>Y", "\"+Y")
+vim.keymap.set("n", "<leader>y", "\"*y")
+vim.keymap.set("v", "<leader>y", "\"*y")
+vim.keymap.set("n", "<leader>Y", "\"*Y")
 
 -- Delete without adding deleted content to a buffer
 vim.keymap.set("n", "<leader>d", "\"_d")
@@ -31,7 +31,7 @@ vim.keymap.set("n", "<Leader>w", ":bp<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>e", ":bn<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>q", ":tabp<CR>", { noremap = true })
 vim.keymap.set("n", "<Leader>r", ":tabn<CR>", { noremap = true })
-vim.keymap.set("n", "<Leader>d", ":bd<CR>", { noremap = true })
+vim.keymap.set("n", "<Leader>D", ":bd<CR>", { noremap = true })
 
 -- Create a new line without going to the insert mode
 vim.keymap.set("n", "<Space>o", "o<Esc>", { noremap = true })
