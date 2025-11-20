@@ -22,4 +22,4 @@ Use ":Mason" to install LSPs
 
 ## Tmux
 
-Enter tmux and then do "<prefix> + I" to download and install Tmux plugins.
+Enter tmux and then do "\<prefix\> + I" to download and install Tmux plugins.
