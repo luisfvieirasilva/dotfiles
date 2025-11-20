@@ -1,2 +1,8 @@
 bind main F !git commit --fixup=%(commit)
 bind main i !git rebase -i --autosquash %(commit)
+
+# j -> left, k -> down, l -> up, ; -> right
+bind generic j scroll-left
+bind generic k move-down
+bind generic l move-up
+bind generic ; scroll-right
