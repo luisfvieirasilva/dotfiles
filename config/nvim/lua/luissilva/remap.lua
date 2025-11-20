@@ -47,3 +47,17 @@ vim.keymap.set("n", "<C-S-Down>", ":resize -2<CR>", { noremap = true })
 vim.keymap.set("n", "<C-S-Up>", ":resize +2<CR>", { noremap = true })
 vim.keymap.set("n", "<C-S-Left>", ":vertical resize +2<CR>", { noremap = true })
 vim.keymap.set("n", "<C-S-Right>", ":vertical resize -2<CR>", { noremap = true })
+
+-- ======================
+-- Custom Movement Keys
+-- ======================
+
+-- Redefine hjkl directions:
+-- j → left, k → down, l → up, ; → right
+vim.keymap.set({ "n", "v", "o" }, "j", "h", { noremap = true })
+vim.keymap.set({ "n", "v", "o" }, "k", "j", { noremap = true })
+vim.keymap.set({ "n", "v", "o" }, "l", "k", { noremap = true })
+vim.keymap.set({ "n", "v", "o" }, ";", "l", { noremap = true })
+
+-- Preserve original `;` functionality (repeat f/t/F/T) on `h`
+vim.keymap.set({ "n", "v", "o" }, "h", ";", { noremap = true })
